@@ -22,6 +22,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    width: 100%;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -35,6 +36,6 @@
 
 @layer utilities {
   .text-huge {
-    font-size: clamp(4rem, 15vw, 15rem);
+    font-size: clamp(3rem, 12vw, 15rem);
   }
 }

@@ -12,17 +12,6 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    id: "housing-explorer",
-    title: "Planning Housing Explorer",
-    category: "Spatial Intelligence",
-    description: "A 3D web app to explore and communicate NYC Department of City Planning's City of Yes initiative. Built with Three.js.",
-    tags: ["React", "Three.js", "Node.js", "MongoDB"],
-    imagePlaceholderColor: "#E5E7EB",
-    link: "https://cif-ud-project.vercel.app/",
-    github: "https://github.com/CTC3PO/planning-housing-tool",
-    image: "/projects/housing.png"
-  },
-  {
     id: "dalat-app",
     title: "Dalat App",
     category: "Social Resource Systems",
@@ -32,6 +21,17 @@ export const PROJECTS: Project[] = [
     link: "https://dalat.app/",
     github: "https://github.com/goldenfocus/dalat-app",
     image: "/projects/dalat.png"
+  },
+  {
+    id: "housing-explorer",
+    title: "Planning Housing Explorer",
+    category: "Spatial Intelligence",
+    description: "A 3D web app to explore and communicate NYC Department of City Planning's City of Yes initiative. Built with Three.js.",
+    tags: ["React", "Three.js", "Node.js", "MongoDB"],
+    imagePlaceholderColor: "#E5E7EB",
+    link: "https://cif-ud-project.vercel.app/",
+    github: "https://github.com/CTC3PO/planning-housing-tool",
+    image: "/projects/housing.png"
   },
   {
     id: "nutri-global",
@@ -44,15 +44,6 @@ export const PROJECTS: Project[] = [
     image: "/projects/nutri.png"
   },
   {
-    id: "gen-ai-landscapes",
-    title: "Generative AI for Virtual Environment",
-    category: "Visionary Computing",
-    description: "An advanced Unreal Engine project exploring generative AI techniques to build and texture immersive 3D landscapes.",
-    tags: ["Unreal Engine", "Generative AI", "C++"],
-    imagePlaceholderColor: "#9CA3AF",
-    image: "/projects/genai.png"
-  },
-  {
     id: "rl-viz",
     title: "Pacman Q-Learning Agent",
     category: "Core Intelligence",
@@ -61,6 +52,15 @@ export const PROJECTS: Project[] = [
     imagePlaceholderColor: "#8E97A1",
     github: "https://github.com/CTC3PO",
     image: "/projects/rl-viz.gif"
+  },
+  {
+    id: "gen-ai-landscapes",
+    title: "Generative AI for Virtual Environment",
+    category: "Visionary Computing",
+    description: "An advanced Unreal Engine project exploring generative AI techniques to build and texture immersive 3D landscapes.",
+    tags: ["Unreal Engine", "Generative AI", "C++"],
+    imagePlaceholderColor: "#9CA3AF",
+    image: "/projects/genai.png"
   },
   {
     id: "mindful-life",

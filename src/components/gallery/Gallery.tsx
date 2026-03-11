@@ -17,19 +17,23 @@ export default function Gallery() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-3 md:auto-rows-[minmax(140px,auto)]">
         {PROJECTS.map((project, index) => {
           // Re-balanced 6-project pattern: More compact for 1-scroll view
+          // Pairs as requested: 
+          // 0: Dalat (L), 1: Housing (R)
+          // 2: Nutri (L), 3: Pacman (R)
+          // 4: GenAI (L), 5: Mindful (R)
           let gridConfig = "md:col-span-6 md:row-span-3"; // default
           
           // Row 1
-          if (index === 0) gridConfig = "md:col-span-7 md:row-span-3"; // Dalat
-          if (index === 1) gridConfig = "md:col-span-5 md:row-span-3"; // Mindful
+          if (index === 0) gridConfig = "md:col-span-7 md:row-span-3"; // Dalat (slightly wider)
+          if (index === 1) gridConfig = "md:col-span-5 md:row-span-3"; // Housing
           
           // Row 2
-          if (index === 2) gridConfig = "md:col-span-4 md:row-span-4"; // Housing
-          if (index === 3) gridConfig = "md:col-span-8 md:row-span-4"; // Nutri
+          if (index === 2) gridConfig = "md:col-span-8 md:row-span-4"; // Nutri (wider)
+          if (index === 3) gridConfig = "md:col-span-4 md:row-span-4"; // Pacman
           
           // Row 3
-          if (index === 4) gridConfig = "md:col-span-7 md:row-span-3"; // GenAI
-          if (index === 5) gridConfig = "md:col-span-5 md:row-span-3"; // Pacman
+          if (index === 4) gridConfig = "md:col-span-5 md:row-span-3"; // GenAI
+          if (index === 5) gridConfig = "md:col-span-7 md:row-span-3"; // Mindful
           
           const cardContent = (
             <motion.div 

@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 export default function Narrative() {
   return (
-    <section id="about-long" className="mt-48 pb-32 max-w-4xl">
+    <section id="about-long" className="mt-24 pb-32 max-w-4xl">
       <div className="flex flex-col gap-16">
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="relative pl-12 md:pl-24"
+          className="relative pl-6 md:pl-24"
         >
           <span className="absolute left-0 top-0 font-serif text-6xl opacity-10 leading-none">"</span>
           <p className="font-serif text-3xl md:text-5xl leading-tight tracking-tight">

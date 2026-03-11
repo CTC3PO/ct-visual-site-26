@@ -18,14 +18,8 @@ export default function Contact() {
         </div>
 
         <div className="flex flex-col items-start md:items-end gap-8">
-          <div className="flex flex-col items-start md:items-end font-sans">
-            <span className="text-[10px] uppercase tracking-[0.3em] font-black opacity-40 mb-2">Inquiries</span>
-            <a href="mailto:chautrancmt26@gmail.com" className="text-2xl md:text-4xl font-bold hover:text-system-accent transition-colors underline-offset-8 underline">
-              chautrancmt26@gmail.com
-            </a>
-          </div>
-
           <div className="flex gap-8 font-sans text-xs uppercase tracking-widest font-black">
+            <a href="mailto:chautrancmt26@gmail.com" className="hover:opacity-50 transition-opacity">Email</a>
             <a href="https://linkedin.com" target="_blank" className="hover:opacity-50 transition-opacity">LinkedIn</a>
             <a href="https://github.com" target="_blank" className="hover:opacity-50 transition-opacity">GitHub</a>
             <a href="https://twitter.com" target="_blank" className="hover:opacity-50 transition-opacity">Twitter</a>

@@ -7,7 +7,7 @@ export default function Gallery() {
   return (
     <section id="work" className="mt-8 pb-16">
       <div className="flex justify-between items-end mb-8 px-2">
-        <h2 className="text-3xl md:text-5xl max-w-xl">Projects</h2>
+        <h2 className="text-major font-black uppercase">Projects</h2>
         <span className="font-sans text-[10px] uppercase tracking-[0.3em] font-black opacity-30">Assemble [2025]</span>
       </div>
 

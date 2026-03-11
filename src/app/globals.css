@@ -43,6 +43,6 @@
     font-size: clamp(2.5rem, 10vw, 11rem);
   }
   .text-major {
-    font-size: clamp(2rem, 7.5vw, 8.25rem);
+    font-size: clamp(1.7rem, 6.375vw, 7rem);
   }
 }

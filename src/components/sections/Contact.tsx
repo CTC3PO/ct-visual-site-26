@@ -13,7 +13,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="text-6xl md:text-[12vw] font-black uppercase leading-[0.8] tracking-tighter"
           >
-            Let's <br/>Work.
+            Let's <br/>Connect.
           </motion.h2>
         </div>
 

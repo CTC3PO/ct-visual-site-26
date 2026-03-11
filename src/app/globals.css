@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Outfit", ui-serif, Georgia, serif;
+
+  --color-system-bg: #F2EFED; /* Warm Bone/Beige (Lilly Inspo) */
+  --color-system-text: #2B2928; /* Deep Charcoal (Edward/Lilly Inspo) */
+  --color-system-accent: #2C4AEB; /* Edward Royal Blue */
+  --color-system-muted: #E5E1DE;
+}
+
+@layer base {
+  *, ::after, ::before {
+    border-color: var(--color-system-muted);
+  }
+
+  body {
+    background-color: var(--color-system-bg);
+    color: var(--color-system-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+  }
+}
+
+@layer utilities {
+  .text-huge {
+    font-size: clamp(4rem, 15vw, 15rem);
+  }
+}

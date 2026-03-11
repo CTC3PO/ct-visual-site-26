@@ -10,7 +10,7 @@ import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
-    <main className="min-h-screen pt-12 pb-12 px-6 md:px-12 lg:px-24 max-w-[1800px] mx-auto">
+    <main className="min-h-screen pt-8 pb-12 px-6 md:px-12 lg:px-24 max-w-[1600px] mx-auto">
       {/* Header / Nav */}
       <nav className="fixed top-0 left-0 w-full p-6 md:px-12 lg:px-24 flex justify-between items-center z-50 mix-blend-difference text-system-bg">
         <span className="font-serif font-black text-xl uppercase tracking-tighter">CT / 25</span>

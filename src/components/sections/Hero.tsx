@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col pt-24 pb-12">
+    <section className="flex flex-col pt-12 pb-12">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
         {/* Name Column */}
         <div className="md:col-span-7 overflow-hidden">

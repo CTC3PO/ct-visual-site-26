@@ -36,6 +36,6 @@
 
 @layer utilities {
   .text-huge {
-    font-size: clamp(3rem, 12vw, 15rem);
+    font-size: clamp(2.5rem, 10vw, 11rem);
   }
 }

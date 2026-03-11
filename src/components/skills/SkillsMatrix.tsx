@@ -25,8 +25,8 @@ const SKILL_PILLARS = [
 
 export default function SkillsMatrix() {
   return (
-    <section id="about" className="mt-48 pb-48 border-t border-system-text/10 pt-24">
-      <div className="flex flex-col md:flex-row justify-between items-start mb-24">
+    <section id="about" className="mt-16 pb-24 border-t border-system-text/10 pt-12">
+      <div className="flex flex-col md:flex-row justify-between items-start mb-12">
         <h2 className="text-huge leading-[0.8] mb-8 md:mb-0">Expertise<br/>/Matrix</h2>
         <div className="max-w-md">
            <p className="font-sans text-xl opacity-60 leading-relaxed italic">

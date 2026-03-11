@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mt-48 pb-24 border-t border-system-text pt-24">
+    <section id="contact" className="mt-16 pb-24 border-t border-system-text pt-12">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
         <div className="flex-1">
           <motion.h2 
@@ -20,8 +20,8 @@ export default function Contact() {
         <div className="flex flex-col items-start md:items-end gap-8">
           <div className="flex flex-col items-start md:items-end font-sans">
             <span className="text-[10px] uppercase tracking-[0.3em] font-black opacity-40 mb-2">Inquiries</span>
-            <a href="mailto:chau@tran.dev" className="text-2xl md:text-4xl font-bold hover:text-system-accent transition-colors underline-offset-8 underline">
-              chau@tran.dev
+            <a href="mailto:chautrancmt26@gmail.com" className="text-2xl md:text-4xl font-bold hover:text-system-accent transition-colors underline-offset-8 underline">
+              chautrancmt26@gmail.com
             </a>
           </div>
 
@@ -33,7 +33,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <footer className="mt-32 pt-12 border-t border-system-text/5 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest font-bold opacity-30">
+      <footer className="mt-16 pt-8 border-t border-system-text/5 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest font-bold opacity-30">
         <span>&copy; 2025 CHAU TRAN</span>
         <div className="flex gap-8 mt-4 md:mt-0">
           <span>Design-Centric Development</span>

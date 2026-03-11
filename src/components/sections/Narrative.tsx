@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Narrative() {
   return (
-    <section id="about-long" className="mt-24 pb-32 max-w-4xl">
+    <section id="about-long" className="mt-8 pb-16 max-w-4xl">
       <div className="flex flex-col gap-16">
         <motion.div 
           initial={{ opacity: 0, x: -20 }}

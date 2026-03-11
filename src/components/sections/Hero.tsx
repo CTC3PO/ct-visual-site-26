@@ -10,7 +10,7 @@ export default function Hero() {
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
           transition={{ duration: 0.8, ease: [0.33, 1, 0.68, 1] }}
-          className="text-huge leading-[0.85] flex flex-col"
+          className="text-huge leading-[0.85] flex flex-col font-black"
         >
           <span>Chau</span>
           <span className="md:ml-[0.1em]">Tran</span>

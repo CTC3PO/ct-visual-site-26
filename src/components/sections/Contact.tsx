@@ -22,7 +22,7 @@ export default function Contact() {
             <a href="mailto:chautrancmt26@gmail.com" className="hover:opacity-50 transition-opacity">Email</a>
             <a href="https://linkedin.com" target="_blank" className="hover:opacity-50 transition-opacity">LinkedIn</a>
             <a href="https://github.com" target="_blank" className="hover:opacity-50 transition-opacity">GitHub</a>
-            <a href="https://twitter.com" target="_blank" className="hover:opacity-50 transition-opacity">Twitter</a>
+            <a href="https://drive.google.com/open?id=1WfGw3e__WtNQTwTZZvE3IxkYwMsnLONK&usp=drive_fs" target="_blank" className="hover:opacity-50 transition-opacity">Resume</a>
           </div>
         </div>
       </div>

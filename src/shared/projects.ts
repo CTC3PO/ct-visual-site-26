@@ -12,6 +12,17 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    id: "housing-explorer",
+    title: "Planning Housing Explorer",
+    category: "Spatial Intelligence",
+    description: "A 3D web app to explore and communicate NYC Department of City Planning's City of Yes initiative. Built with Three.js.",
+    tags: ["React", "Three.js", "Node.js", "MongoDB"],
+    imagePlaceholderColor: "#E5E7EB",
+    link: "https://cif-ud-project.vercel.app/",
+    github: "https://github.com/CTC3PO/planning-housing-tool",
+    image: "/projects/housing.png"
+  },
+  {
     id: "dalat-app",
     title: "Dalat App",
     category: "Social Resource Systems",
@@ -23,15 +34,15 @@ export const PROJECTS: Project[] = [
     image: "/projects/dalat.png"
   },
   {
-    id: "housing-explorer",
-    title: "Planning Housing Explorer",
-    category: "Spatial Intelligence",
-    description: "A 3D web app to explore and communicate NYC Department of City Planning's City of Yes initiative. Built with Three.js.",
-    tags: ["React", "Three.js", "Node.js", "MongoDB"],
-    imagePlaceholderColor: "#E5E7EB",
-    link: "https://cif-ud-project.vercel.app/",
-    github: "https://github.com/CTC3PO/planning-housing-tool",
-    image: "/projects/housing.png"
+    id: "mindful-life",
+    title: "Mindful AI",
+    category: "Personal Intelligence",
+    description: "A comprehensive platform dedicated to supporting mental well-being, featuring habit tracking and mindful living concepts.",
+    tags: ["React", "TailwindCSS", "Systems Thinking"],
+    imagePlaceholderColor: "#C5CCD8",
+    link: "https://growth-track1.vercel.app/",
+    github: "https://github.com/CTC3PO/growth-track",
+    image: "/projects/mindful.png"
   },
   {
     id: "nutri-global",
@@ -61,16 +72,5 @@ export const PROJECTS: Project[] = [
     tags: ["Unreal Engine", "Generative AI", "C++"],
     imagePlaceholderColor: "#9CA3AF",
     image: "/projects/genai.png"
-  },
-  {
-    id: "mindful-life",
-    title: "Mindful Life System",
-    category: "Personal Intelligence",
-    description: "A comprehensive platform dedicated to supporting mental well-being, featuring habit tracking and mindful living concepts.",
-    tags: ["React", "TailwindCSS", "Systems Thinking"],
-    imagePlaceholderColor: "#C5CCD8",
-    link: "https://growth-track1.vercel.app/",
-    github: "https://github.com/CTC3PO/growth-track",
-    image: "/projects/mindful.png"
   }
 ];

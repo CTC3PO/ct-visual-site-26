@@ -9,31 +9,23 @@ export default function Gallery() {
       <div className="flex justify-between items-end mb-12 px-2">
         <h2 className="text-3xl md:text-5xl max-w-xl">Archive / Focus</h2>
         <div className="flex flex-col items-end">
-          <span className="font-sans text-[10px] uppercase tracking-[0.3em] font-black opacity-30">Assemble [2025]</span>
-          <span className="font-sans text-[9px] uppercase tracking-widest opacity-20 hidden md:block mt-1">Web Dev (Left) — AI/ML (Right)</span>
-        </div>
+        <span className="font-sans text-[10px] uppercase tracking-[0.3em] font-black opacity-30">Assemble [2025]</span>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-3 md:auto-rows-[minmax(140px,auto)]">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-2 md:auto-rows-[minmax(100px,auto)]">
         {PROJECTS.map((project, index) => {
-          // Re-balanced 6-project pattern: More compact for 1-scroll view
-          // Pairs as requested: 
-          // 0: Dalat (L), 1: Housing (R)
-          // 2: Nutri (L), 3: Pacman (R)
-          // 4: GenAI (L), 5: Mindful (R)
-          let gridConfig = "md:col-span-6 md:row-span-3"; // default
+          // Ultra-compact pattern: 2-row span for all ensures all 6 fit in ~600px height
+          let gridConfig = "md:col-span-6 md:row-span-2"; // default
           
-          // Row 1
-          if (index === 0) gridConfig = "md:col-span-7 md:row-span-3"; // Dalat (slightly wider)
-          if (index === 1) gridConfig = "md:col-span-5 md:row-span-3"; // Housing
+          // Slight width asymmetry, but height is locked for 1-view visibility
+          if (index === 0) gridConfig = "md:col-span-7 md:row-span-2"; 
+          if (index === 1) gridConfig = "md:col-span-5 md:row-span-2"; 
           
-          // Row 2
-          if (index === 2) gridConfig = "md:col-span-8 md:row-span-4"; // Nutri (wider)
-          if (index === 3) gridConfig = "md:col-span-4 md:row-span-4"; // Pacman
+          if (index === 2) gridConfig = "md:col-span-5 md:row-span-2"; 
+          if (index === 3) gridConfig = "md:col-span-7 md:row-span-2"; 
           
-          // Row 3
-          if (index === 4) gridConfig = "md:col-span-5 md:row-span-3"; // GenAI
-          if (index === 5) gridConfig = "md:col-span-7 md:row-span-3"; // Mindful
+          if (index === 4) gridConfig = "md:col-span-8 md:row-span-2"; 
+          if (index === 5) gridConfig = "md:col-span-4 md:row-span-2"; 
           
           const cardContent = (
             <motion.div 
@@ -67,8 +59,8 @@ export default function Gallery() {
                 </div>
               </div>
 
-              {/* Bottom Info Bar - Minimalist, No Grow */}
-              <div className="px-4 py-3 md:px-4 md:py-3 bg-system-bg flex flex-col justify-center shrink-0 transition-colors duration-300 group-hover:bg-system-text group-hover:text-system-bg">
+              {/* Bottom Info Bar - Ultra Slim */}
+              <div className="px-3 py-2 md:px-3 md:py-2 bg-system-bg flex flex-col justify-center shrink-0 transition-colors duration-300 group-hover:bg-system-text group-hover:text-system-bg">
                 <div className="flex justify-between items-start gap-4">
                   <div>
                     <h3 className="text-xs md:text-base font-black uppercase leading-tight mb-1">

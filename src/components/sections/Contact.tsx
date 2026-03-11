@@ -11,7 +11,7 @@ export default function Contact() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-6xl md:text-[12vw] font-black uppercase leading-[0.8] tracking-tighter"
+            className="text-6xl md:text-major font-black uppercase leading-[0.8] tracking-tighter"
           >
             Let's <br/>Connect.
           </motion.h2>

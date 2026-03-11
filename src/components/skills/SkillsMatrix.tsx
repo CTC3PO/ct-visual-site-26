@@ -27,7 +27,7 @@ export default function SkillsMatrix() {
   return (
     <section id="about" className="mt-16 pb-24 border-t border-system-text/10 pt-12">
       <div className="flex flex-col md:flex-row justify-between items-start mb-12">
-        <h2 className="text-huge leading-[0.8] mb-8 md:mb-0">Expertise</h2>
+        <h2 className="text-major leading-[0.8] mb-8 md:mb-0">Expertise</h2>
         <div className="max-w-md">
            <p className="font-sans text-xl opacity-60 leading-relaxed italic">
             "A design-centric developer doesn't just write code; they architect the intersection of physical space and digital logic."
